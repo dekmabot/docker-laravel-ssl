@@ -1,7 +1,7 @@
 FROM dekmabot/docker-laravel:latest
 MAINTAINER dekmabot@gmail.com
 
-ADD default /etc/nginx/sites-enabled/
+ADD nginx-host.conf /etc/nginx/sites-enabled/
 
 WORKDIR /var/www/laravel
  

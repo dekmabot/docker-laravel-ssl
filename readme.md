@@ -1,13 +1,13 @@
-# Laravel Docker Image
+# Laravel Docker Image with SSL
 
-Docker image to run Laravel sites with or without ssl.
+Docker image to run Laravel sites with ssl.
 
 ## Use
 
 You may use this image like this:
  
 ```bash
-docker run -d --name laravel dekmabot/docker-laravel
+docker run -d --name laravel dekmabot/docker-laravel-ssl
 ```
 
 ## License
