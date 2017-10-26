@@ -23,3 +23,4 @@ WORKDIR /var/www/laravel
 EXPOSE 22 80 443
  
 CMD ["/usr/bin/supervisord"]
+
