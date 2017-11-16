@@ -22,6 +22,11 @@ echo $command
 
 $command
 
+mkdir -p /var/www/laravel/config
+mkdir -p /var/www/laravel/config/ssl
+mkdir -p /var/www/laravel/config/ssl/certs
+mkdir -p /var/www/laravel/config/ssl/private
+
 cp /etc/letsencrypt/live/$first_domain/fullchain.pem /var/www/laravel/config/ssl/certs/chained.pem
 cp /etc/letsencrypt/live/$first_domain/privkey.pem /var/www/laravel/config/ssl/private/domain.key
 
