@@ -1,6 +1,7 @@
 # Laravel Docker Image with SSL
 
 Docker image to run Laravel sites with ssl.
+PHP 7.2
 
 ## Use
 
